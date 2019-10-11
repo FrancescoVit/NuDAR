@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title> NuDAR </title>
+      <link rel="stylesheet" type="text/css" href="styles/main.css">
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+      <!-- Optional theme -->
+      <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+   </head>
+   <body>
+      <!-- Code for nav-bar -->
+      <header class="navbar-inverse" role="banner">
+         <div class="container">
+            <nav role="navigation">
+               <div class="container-fluid">
+                  <!-- Brand and toggle get grouped for better mobile display -->
+                  <div class="navbar-header">
+                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                     <span class="sr-only">Toggle navigation</span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     </button>
+                     <a class="navbar-brand" href="index.html">NuDAR</a>
+                  </div>
+                  <!-- Collect the nav links, forms, and other content for toggling -->
+                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                     <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="workflow.html">Workflow</a></li>
+                        <li class="active"><a href="guide.html">Guide</a><span class="sr-only">(current)</span></li>
+                        <li><a href="contacts.html">Contacts</a></li>
+                     </ul>
+                     </ul>
+                  </div>
+                  <!-- /.navbar-collapse -->
+               </div>
+               <!-- /.container-fluid -->
+            </nav>
+         </div>
+      </header>
+      <!-- Code for page body -->
+      <div class="container">
+      <div class="row">
+         <!-- Left panel of the page; guide textual content -->
+         <div class="col-md-8 col-xs-12">
+            <div class="panel panel-default">
+               <div class="panel-heading">
+                  <h2>Tools for quality control and analysis of genetic data</h2>
+               </div>
+               <div class="panel-body">
+                  <p>USE CASE SCENARIO</p>
+                  <ul>
+                     <li><b>zCall:</b> a variant caller specifically designed for calling rare single-nucleotide polymorphisms from array-based technology. <br>
+                        <a href="http://atguweb.mgh.harvard.edu/apps/zcall" target="_blank" class="btn btn-link btn-xs">
+                        <span class="glyphicon glyphicon-bookmark"></span> Go to site
+                        </a>
+                     </li>
+                     <br>
+                     <li><b>SKAT:</b> a SNP-set (e.g., a gene or a region) level test for association between a set of rare (or common) variants and dichotomous or quantitative phenotypes. <br>
+                        <a href="https://www.hsph.harvard.edu/skat/" target="_blank" class="btn btn-link btn-xs">
+                        <span class="glyphicon glyphicon-bookmark"></span> Go to site
+                        </a>
+                     </li>
+                     <br>
+                     <li><b>GTOOL:</b> program for transforming sets of genotype data for use with the programs SNPTEST and IMPUTE. GTOOL can be used to 1) generate subsets of genotype data, 2) to convert genotype data between the PED file format and the file format used by SNPTEST and IMPUTE, 3) merge genotype datasets together and orient genotype data according to a strand file. <br>
+                        <a href="http://www.well.ox.ac.uk/~cfreeman/software/gwas/gtool.html" target="_blank" class="btn btn-link btn-xs">
+                        <span class="glyphicon glyphicon-bookmark"></span> Go to site
+                        </a>
+                     </li>
+                     <br>
+                     <li><b>IMPUTE:</b> a computer program for phasing observed genotypes and imputing missing genotypes. IMPUTE increases accuracy and combines information across multiple reference panels while remaining computationally feasible. <br>
+                        <a href="https://mathgen.stats.ox.ac.uk/impute/impute_v2.html" target="_blank" class="btn btn-link btn-xs">
+                        <span class="glyphicon glyphicon-bookmark"></span> Go to site
+                        </a>
+                     </li>
+                     <br>
+                     <li><b>GenABEL:</b> An R library for genome-wide association (GWA) analysis. GenABEL implements effective storage and handling of GWA data, fast procedures for genetic data quality control, testing of association of single nucleotide polymorphisms with binary or quantitative traits, visualization of results and also provides easy interfaces to standard statistical and graphical procedures implemented in base R and special R libraries for genetic analysis. <br>
+                        <a href="http://www.genabel.org/packages/GenABEL" target="_blank" class="btn btn-link btn-xs">
+                        <span class="glyphicon glyphicon-bookmark"></span> Go to site
+                        </a>
+                     </li>
+                     <br>
+                     <li><b>METAL:</b> provides a computationally efficient tool for meta-analysis of genome-wide association scans, which is a commonly used approach for improving power complex traits gene mapping studies. METAL provides a rich scripting interface and implements efficient memory management to allow analyses of very large data sets and to support a variety of input file formats. <br>
+                        <a href="http://csg.sph.umich.edu//abecasis/Metal/" target="_blank" class="btn btn-link btn-xs">
+                        <span class="glyphicon glyphicon-bookmark"></span> Go to site
+                        </a>
+                     </li>
+                     <br>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <!-- Right panel of the page; guide menu -->
+         <div class="col-md-4 col-xs-6 hidden-xs hidden-sm">
+            <div class="panel panel-default" id="no_border">
+               <div class="pane-hading text-center">
+                  <h2 class="stand_out">Content</h2>
+               </div>
+               <div class="pane-body">
+                  <div class="list-group">
+                     <a href="guide.html" class="list-group-item">Guide home</a>
+                     <a href="guide1.html" class="list-group-item list-group-item-warning">Tools for quality control and analysis of genetic data</a>
+                     <a href="guide2.html" class="list-group-item">Tools for network analysis</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Code for Footer -->
+      <footer>
+         <div class="container-fluid">
+            <ol class="breadcrumb">
+               <li><a href="guide.html">Guide Home</a></li>
+               <li class="active"> Tools for quality control and analysis of genetic data </li>
+            </ol>
+         </div>
+         <hr>
+         <div class="footer_custom">
+            <div class="container-fluid">
+               <p></p>
+               <p> &#169; 2016 JPI - ENPADASI - WP4 </p>
+            </div>
+         </div>
+      </footer>
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   </body>
+</html>

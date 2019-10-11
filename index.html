@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title> NuDAR </title>
+      <link rel="stylesheet" type="text/css" href="styles/main.css">
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+      <!-- Optional theme -->
+      <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+   </head>
+   <body>
+      <!-- Code for nav-bar -->
+      <header class="navbar-inverse" role="banner">
+         <div class="container">
+         <nav role="navigation">
+            <div class="container-fluid">
+               <!-- Brand and toggle get grouped for better mobile display -->
+               <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="index.html">NuDAR</a>
+               </div>
+               <!-- Collect the nav links, forms, and other content for toggling -->
+               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                     <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+                     <li><a href="workflow.html">Workflow</a></li>
+                     <li><a href="guide.html">Guide</a></li>
+                     <li><a href="contacts.html">Contacts</a></li>
+                  </ul>
+                  </ul>
+               </div>
+               <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+         </nav>
+      </header>
+      <!-- Code for Jumbotron under nav-bar -->
+      <div style="background: 	#E0E0E0  !important; padding: 20px !important" class="jumbotron">
+         <div class="container">
+            <p>
+            <h1 style="text-shadow: 2px 2px 3px #ff9900">Welcome to NuDAR!</h1>
+            </p>	 
+            <p>
+            <h2 class="text-center" style="color: black !important;">The NUtritional studies Data Analysis Resource </h2>
+            </p>
+         </div>
+      </div>
+      <!-- Code for page body -->
+      <div class="container-fluid text-center" >
+         <!-- Central panel of the page -->
+         <div class="col-sm-10 col-xs-12 panel panel-default text-left">
+            <div class="row">
+               <div class="container-fluid">
+                  <p class="stand_out"><b>Introduction and rationale of the resource</b></p>
+                  <p>Nutritional studies (mechanistic, interventional, and epidemiological) make increasingly use of high throughput technologies (e.g. metabolomics, high throughput screening) yielding extremely large datasets. Main strength of these technologies is the ability to describe the system as a whole (systems biology); yet, researchers have encountered major difficulties in mapping these measurements to biological processes.<br> 
+                  Part of this problem is caused by the fact that the number of parameters measured greatly out-numbers the number of subjects participating in the study; weakening the power to arise biological conclusions. This power may be enlarged by connecting the outcome of similar studies; however, this requires a great effort by the community of researcher in the nutritional fiels, in agreeing on structured and standardized data storage and methods for integrated analysis.</p>
+
+                  <p>This website is an effort in this direction. It contains a selection of tools to be used to analyze raw data, produce metadata and annotate metadata from the field of human nutrition, including samples from intervention and observational studies. This website also provides the relevant links to tools used to analyze transcriptomics, proteomics, metabolomics, and the way to annotate and store the metadata produced into a database. 
+                  </p>
+               </div>
+            </div>
+            <div class="row">
+               <div class="container-fluid">
+                  <p class="stand_out"><b>About this resource</b></p>
+                  <p>This website was developed to provide an open source knowledge base and a complete data querying and analysis platform for nutritional studies.<br>
+                     It is structured in two main pages:
+                  <ul>
+                     <li>The <a href="workflow.html" target="_blank"> WORKFLOW</a>, where you can find indication and tools for data querying and data analysis procedure. Data analysis procedure will be implemented in a Galaxy instance.</li>
+                     <li>The <a href="guide.html" target="_blank"> GUIDE</a>, where you can find a list of tool to use in the analysis of different type of data that can be obtained during nutritional studies (ordered by analytical procedure), with a brief description, link to the originl source, and case scenarios applications.</li>
+                  </ul>
+                  </p>
+                  <p>This resource was developed under the working package 4 of the ENPADASI project</p>
+                  <br> 
+                  <p class="stand_out"><b>About the ENPADASI project</b></p>
+                  <p>The European Nutritional Phenotype Assessment and Data Sharing Initiative (ENPADASI) is a multidisciplinary consortium of scientists working in the nutritional field.
+                     <br>
+                     The main objective of ENPADASI project is to deliver an open access research infrastructure that will contain data from a wide variety of nutritional studies, ranging from mechanistic/interventions to epidemiological studies including a multitude of phenotypic outcomes that will facilitate combined analyses in the future.
+                     <br>
+                     To obtain further information on the tasks, objective and organization of the project, to know the partners involved in ENPADASI, or to be updated on the results, have a look at the project <a href="http://www.enpadasi.eu/index.html" target="_blank"> website.</a>
+                  </p>
+                  <br>	
+               </div>
+            </div>
+         </div>
+         <!-- Right panel of the page; link-panel -->			
+         <div class="col-sm-2 col-xs-12">
+            <div class="panel panel-default text-center">
+               <div class="panel-heading text-center"> Link </div>
+               <div class="panel-body">
+                  <a href="http://www.healthydietforhealthylife.eu/" target="_blank"><img src="images/logo_JPI_HDHL_opt.jpg" class="img-responsive" alt="JPI logo" width="400"></a>
+                  <hr>
+                  <a href="http://www.enpadasi.eu/" target="_blank"><img src="images/ENPADASIlogo.jpg" class="img-responsive" alt="ENPADASI logo" width="400"></a>
+                  <hr>
+                  <a href="http://www.unifi.it/" target="_blank"><img src="images/head_unifi.png" class="img-responsive" alt="UNIFI logo" width="400"></a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <hr>
+      <!-- Code for Footer -->		
+      <footer>
+         <div class="footer_custom">
+            <div id="footer_text" class="container-fluid">
+               <p></p>
+               <p> &#169; 2016 JPI - ENPADASI - WP4 </p>
+            </div>
+         </div>
+      </footer>
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   </body>
+</html>

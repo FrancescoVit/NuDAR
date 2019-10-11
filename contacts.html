@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title> NuDAR </title>
+      <link rel="stylesheet" type="text/css" href="styles/main.css">
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+      <!-- Optional theme -->
+      <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+   </head>
+   <body>
+      <!-- Code for nav-bar -->
+      <header class="navbar-inverse" role="banner">
+         <div class="container">
+            <nav role="navigation">
+               <div class="container-fluid">
+                  <!-- Brand and toggle get grouped for better mobile display -->
+                  <div class="navbar-header">
+                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                     <span class="sr-only">Toggle navigation</span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     </button>
+                     <a class="navbar-brand" href="index.html">NuDAR</a>
+                  </div>
+                  <!-- Collect the nav links, forms, and other content for toggling -->
+                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                     <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home </a></li>
+                        <li><a href="workflow.html">Workflow</a></li>
+                        <li><a href="guide.html">Guide</a></li>
+                        <li class="active"><a href="contacts.html">Contacts <span class="sr-only">(current)</span></a></li>
+                     </ul>
+                     </ul>
+                  </div>
+                  <!-- /.navbar-collapse -->
+               </div>
+               <!-- /.container-fluid -->
+            </nav>
+         </div>
+      </header>
+      <!-- Code for page body -->
+      <h1 align="center">Stay in contact with us!</h1>
+      <p align="center">Here you will find all the useful contact to stay in touch with us. Feel free to send us questions, issues, observations</p>
+      <div class="container">
+      <div class="row">
+         <!-- Leftmost panel -->
+         <div class="col-sm-4 col-xs-12 col-md-4">
+            <div class="panel panel-default">
+               <div class="panel-heading">Developer</div>
+               <div class="panel-body"></div>
+            </div>
+         </div>
+         <!-- Central panel -->
+         <div class="col-sm-4 col-xs-12 col-md-4">
+            <div class="panel panel-default">
+               <div class="panel-heading">Galaxy Tool integration</div>
+               <div class="panel-body"></div>
+            </div>
+         </div>
+         <!-- Rightmost panel -->
+         <div class="col-sm-4 col-xs-12 col-md-4">
+            <div class="panel panel-default">
+               <div class="panel-heading">Web</div>
+               <div class="panel-body"></div>
+            </div>
+         </div>
+      </div>
+      <hr>
+      <!-- Code for contact form -->
+      <form id="contact-form" method="post" action="contact.php" role="form">
+         <div class="messages"></div>
+         <div class="controls">
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="form-group">
+                     <label for="form_name">First name *</label>
+                     <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your first name *" required="required" data-error="First name is required.">
+                     <div class="help-block with-errors"></div>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="form-group">
+                     <label for="form_lastname">Lastname *</label>
+                     <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your last name *" required="required" data-error="Last name is required.">
+                     <div class="help-block with-errors"></div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="form-group">
+                     <label for="form_email">Email *</label>
+                     <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                     <div class="help-block with-errors"></div>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="form-group">
+                     <label for="form_phone">Phone</label>
+                     <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                     <div class="help-block with-errors"></div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="form-group">
+                     <label for="form_message">Message *</label>
+                     <textarea id="form_message" name="message" class="form-control" placeholder="Message for us *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                     <div class="help-block with-errors"></div>
+                  </div>
+               </div>
+               <div class="col-md-12">
+                  <input type="submit" class="btn btn-success btn-send" value="Send message">
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-12">
+                  <p class="text-muted"><strong>*</strong> These fields are required. Contact form template by <a href="http://bootstrapious.com" target="_blank">Bootstrapious</a>.</p>
+               </div>
+            </div>
+         </div>
+      </form>
+      <!-- Code for Footer -->
+      <footer>
+         <div class="footer_custom">
+            <div id="footer_text" class="container-fluid">
+               <p></p>
+               <p> &#169; 2016 JPI - ENPADASI - WP4 </p>
+            </div>
+         </div>
+      </footer>
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script src="js/validator.js"></script>
+      <script src="js/contact.js"></script>
+   </body>
+</html>
